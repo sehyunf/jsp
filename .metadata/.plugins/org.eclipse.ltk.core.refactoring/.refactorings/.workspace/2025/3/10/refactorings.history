@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;mybatis/src/main/webapp/WEB-INF/list.jsp&apos;" deleteContents="false" description="Delete resource &apos;mybatis/src/main/webapp/WEB-INF/list.jsp&apos;" element1="/mybatis/src/main/webapp/WEB-INF/list.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1741158931860"/>
+</session>
