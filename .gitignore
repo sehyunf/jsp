@@ -629,3 +629,4 @@ Change Maintainer PR #2071
 @kbwo (Kodai Kabasawa): Add testing-language-server in servers.md PR #2076
 @kylebonnici (Kyle Micallef Bonnici): Add Devicetree LSP to list PR #2085
 @ribru17 (Riley Bruins): Add ts_query_ls (Tree-sitter query language server) PR #2068
+/.metadata/
