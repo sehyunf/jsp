@@ -3,6 +3,8 @@ C:\web_0900_psh\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsea
 \post\src\main\java
 C:\web_0900_psh\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1307240968.index
 \servlet\src\main\java
+C:\web_0900_psh\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\602472623.index
+\jstl\src\main\java
 C:\web_0900_psh\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\245939060.index
 \mybatis\src\main\java
 C:\web_0900_psh\jsp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\967724763.index

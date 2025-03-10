@@ -14,21 +14,16 @@
     <fullyQualifiedTypeName name="com.app.product.controller.ProductListController"/>
     <fullyQualifiedTypeName name="com.app.product.controller.ProductReadController"/>
     <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.batch.Main"/>
-    <fullyQualifiedTypeName name="com.app.vo.ProductVO"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="com.app.product.controller.ProductUpdateController"/>
     <fullyQualifiedTypeName name="com.app.product.controller.ProductUpdateOkController"/>
     <fullyQualifiedTypeName name="java.text.ParseException"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
-    <fullyQualifiedTypeName name="com.app.dao.ProductDAO"/>
     <fullyQualifiedTypeName name="com.app.product.controller.ProductDeleteController"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
-    <fullyQualifiedTypeName name="com.app.Result"/>
     <fullyQualifiedTypeName name="com.app.post.controller.PostWriteController"/>
     <fullyQualifiedTypeName name="oracle.jdbc.proxy.annotation.Post"/>
     <fullyQualifiedTypeName name="com.app.post.controller.PostWriteOkController"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.app.post.controller.PostReadController"/>
     <fullyQualifiedTypeName name="com.app.Action"/>
     <fullyQualifiedTypeName name="com.app.post.controller.PostListController"/>
@@ -37,4 +32,14 @@
     <fullyQualifiedTypeName name="com.app.post.controller.PostUpdateController"/>
     <fullyQualifiedTypeName name="com.app.post.controller.PostUpdateOkController"/>
     <fullyQualifiedTypeName name="com.app.post.controller.PostDeleteController"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="com.app.Result"/>
+    <fullyQualifiedTypeName name="com.app.controller.TestController"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.app.dao.ProductDAO"/>
+    <fullyQualifiedTypeName name="org.json.JSONArray"/>
+    <fullyQualifiedTypeName name="com.app.vo.ProductVO"/>
+    <fullyQualifiedTypeName name="org.json.JSONObject"/>
 </qualifiedTypeNameHistroy>

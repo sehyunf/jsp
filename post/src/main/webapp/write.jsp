@@ -7,7 +7,6 @@
 <title>게시물 작성 페이지</title>
 </head>
 <body>
-	<body>
 	<form action="write-ok.post" method="post">
 		<label>
 			<span>제목</span><input type="text" name="postTitle" placeholder="제목">
@@ -17,8 +16,20 @@
 			<span>내용</span><input type="text" name="postContent" placeholder="내용">
 		</label>
 		<div></div>
-		<button>게시물 등록</button>
+		<button type="button">게시물 등록</button>
 	</form>
 </body>
-</body>
+<script>
+	const inputs = document.querySelectorAll("input");
+	
+	document.querySelector("button").addEventListener("click", () => {
+		for(let input of inputs){
+			if(!input.value) {
+				alert("필수입력항목")
+				return;
+			}
+		}
+	})
+</script>
+
 </html>
