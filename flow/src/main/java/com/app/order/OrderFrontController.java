@@ -8,14 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.app.Result;
+import com.app.order.controller.OrderCancelController;
+import com.app.order.controller.OrderListController;
 import com.app.order.controller.OrderWriteOkController;
-import com.app.product.controller.ProductDeleteController;
-import com.app.product.controller.ProductListController;
-import com.app.product.controller.ProductReadController;
-import com.app.product.controller.ProductUpdateController;
-import com.app.product.controller.ProductUpdateOkController;
-import com.app.product.controller.ProductWriteController;
-import com.app.product.controller.ProductWriteOkController;
 
 public class OrderFrontController extends HttpServlet{
 	
@@ -31,7 +26,11 @@ public class OrderFrontController extends HttpServlet{
 		
 		if(target.equals("write-ok")) {
 			result = new OrderWriteOkController().execute(req, resp);
-		}else {
+		}else if(target.equals("list")) {
+			result = new OrderListController().execute(req, resp);
+		}else if(target.equals("cancel")) {
+			result = new OrderCancelController().execute(req, resp);
+		}else{
 //			전부 404
 		}
 		

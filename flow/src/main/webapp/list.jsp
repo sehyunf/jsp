@@ -69,7 +69,7 @@
                "<th>주문수량</th>" +
             "<tr/>" +
             "<tr>" +
-               "<input type='hidden' name='productId' value='" + products[i].id + "' >" +
+               "<input type='hidden' name='productId' value='" + products[i].id + "'/>" +
                "<td>" + products[i].id + "</td>" +
                "<td>" + products[i].productName + "</td>" +
                "<td>" + products[i].productPrice + "</td>" +
@@ -89,7 +89,7 @@
 		e.preventDefault();
 		const inputs = document.querySelectorAll("#order input[name='productCount']")
 		if(inputs.filter((input) => input.value != 0).length == 0) {
-			alert("😺주문수량이 없습니다😺")
+			alert("주문수량이 없습니다")
 			return;
 		}
 		orderForm.submit();

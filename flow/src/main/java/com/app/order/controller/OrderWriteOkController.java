@@ -11,6 +11,7 @@ import com.app.Action;
 import com.app.Result;
 import com.app.dao.MemberDAO;
 import com.app.dao.OrderDAO;
+import com.app.dao.ProductDAO;
 import com.app.vo.MemberVO;
 import com.app.vo.OrderVO;
 
@@ -22,10 +23,13 @@ public class OrderWriteOkController implements Action {
 		MemberDAO memberDAO = new MemberDAO();
 		OrderDAO orderDAO = new OrderDAO();
 		OrderVO orderVO = new OrderVO();
+		ProductDAO productDAO = new ProductDAO(); 
 		
 		HttpSession session = req.getSession();
 		
 		String memberEmail = (String)session.getAttribute("memberEmail");
+		
+		System.out.println(memberEmail);
 		
 		Long foundMemberId = memberDAO.selectByEmail(memberEmail).map(MemberVO::getId).orElseThrow(() ->{
 			throw new RuntimeException();
@@ -35,6 +39,7 @@ public class OrderWriteOkController implements Action {
 		orderVO.setProductId(Long.parseLong(req.getParameter("productId")));
 		orderVO.setProductCount(Integer.parseInt(req.getParameter("productCount")));
 		
+		productDAO.updateStock(orderVO);
 		orderDAO.insert(orderVO);
 		
 		result.setRedirect(true);
