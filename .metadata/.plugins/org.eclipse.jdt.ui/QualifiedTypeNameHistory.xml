@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Insert"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
-    <fullyQualifiedTypeName name="com.app.product.controller.ProductWriteController"/>
-    <fullyQualifiedTypeName name="com.app.product.ProductWriteOkController"/>
-    <fullyQualifiedTypeName name="com.app.product.controller.ProductListController"/>
-    <fullyQualifiedTypeName name="com.app.product.controller.ProductReadController"/>
     <fullyQualifiedTypeName name="org.eclipse.jdt.internal.compiler.batch.Main"/>
     <fullyQualifiedTypeName name="com.app.product.controller.ProductUpdateController"/>
     <fullyQualifiedTypeName name="com.app.product.controller.ProductUpdateOkController"/>
@@ -38,12 +28,10 @@
     <fullyQualifiedTypeName name="com.app.member.controller.MemberLoginOkController"/>
     <fullyQualifiedTypeName name="org.json.JSONArray"/>
     <fullyQualifiedTypeName name="org.json.JSONObject"/>
-    <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.app.order.controller.OrderWriteOkController"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.app.dto.OrderDTO"/>
     <fullyQualifiedTypeName name="com.app.dao.MemberDAO"/>
     <fullyQualifiedTypeName name="com.app.vo.MemberVO"/>
@@ -52,10 +40,24 @@
     <fullyQualifiedTypeName name="com.app.order.controller.OrderListController"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="com.app.member.controller.MemberLogoutOkController"/>
-    <fullyQualifiedTypeName name="com.app.Result"/>
     <fullyQualifiedTypeName name="com.app.order.controller.OrderCancelController"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.app.dao.OrderDAO"/>
     <fullyQualifiedTypeName name="com.app.dao.ProductDAO"/>
     <fullyQualifiedTypeName name="com.app.vo.OrderVO"/>
+    <fullyQualifiedTypeName name="com.app.student.controller.StudentListController"/>
+    <fullyQualifiedTypeName name="com.app.student.controller.StudentExceptionController"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.app.dto.StudentDTO"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="com.app.student.controller.StudentReadController"/>
+    <fullyQualifiedTypeName name="com.app.Result"/>
+    <fullyQualifiedTypeName name="com.app.student.controller.StudentWriteController"/>
+    <fullyQualifiedTypeName name="com.app.student.controller.StudentWriteOkController"/>
+    <fullyQualifiedTypeName name="com.app.vo.StudentVO"/>
+    <fullyQualifiedTypeName name="com.app.student.controller.StudentUpdateController"/>
+    <fullyQualifiedTypeName name="com.app.student.controller.StudentUpdateOkController"/>
+    <fullyQualifiedTypeName name="com.app.student.controller.StudentDeleteController"/>
+    <fullyQualifiedTypeName name="com.app.student.controller.StudentDeleteOkController"/>
+    <fullyQualifiedTypeName name="com.app.dao.StudentDAO"/>
 </qualifiedTypeNameHistroy>
